@@ -6,7 +6,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "fr.android.androidexercises"
+        applicationId "fr.android.projetAndroidVincentJordan"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
