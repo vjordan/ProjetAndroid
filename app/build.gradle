@@ -30,8 +30,11 @@ dependencies {
             "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version")
 
     // TODO add Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
 
     // TODO add GSon converter for Retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
     // TODO add Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
 }
