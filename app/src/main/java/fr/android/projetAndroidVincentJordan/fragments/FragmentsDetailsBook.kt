@@ -28,7 +28,7 @@ class FragmentDetails : Fragment(){
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_detailsBook, container, false)
+        val view = inflater.inflate(R.layout.fragment_details_book, container, false)
         val titleView = view.findViewById<TextView>(R.id.detail_bookTitle)
         val coverView = view.findViewById<ImageView>(R.id.detail_bookCover)
         val synopsisView = view.findViewById<TextView>(R.id.detail_bookSynopsis)
